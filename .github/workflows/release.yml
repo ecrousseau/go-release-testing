@@ -1,0 +1,11 @@
+on:
+  release:
+    types:
+    - published
+
+jobs:
+  release:
+    steps:
+    - name: release
+      uses: ecrousseau/go-release
+      
