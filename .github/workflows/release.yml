@@ -5,6 +5,7 @@ on:
 
 jobs:
   release:
+    runs-on: ubuntu:latest
     steps:
     - name: release
       uses: ecrousseau/go-release
