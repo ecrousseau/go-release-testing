@@ -10,7 +10,7 @@ jobs:
     - name: checkout
       uses: actions/checkout@v2
     - name: release
-      uses: ecrousseau/go-release@v0.0.8
+      uses: ecrousseau/go-release@v1
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
       
